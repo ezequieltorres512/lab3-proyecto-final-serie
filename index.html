@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></linkrel>
+    <title>El juego del calamar</title>
+</head>
+<body>      
+    
+    <!--ENCABEZADO-->
+
+    <header>
+        <a href="./index.html" class="inicio-logo">
+            <img src="./img/squid-game-card-sign-png.png" alt="logo">
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">   
+            <ul>
+                <li><a href="./index.html">Acerca de</a></li>
+                <li><a href="./personaje.html">Personajes</a></li>
+                <li><a href="./temporada.html">Episodios</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="principal"> <!--PRINCIPAL-->
+            <img class="img-titulo" src="./img/el-juego-del-calamar.png" alt="img-squid-game">
+
+            <article class="contenedor-info">
+                <h1 class="info-titulo">El juego del calamar</h1>
+
+                <article class="info-detalle">
+                    <ul>
+                        <li>2021</li>
+                        <li>16+</li>
+                        <li>Supervivencia</li>
+                    </ul>              
+                    <div class="info-parrafo">
+                        <p>Cientos de jugadores con problemas de dinero aceptan una invitación rarísima para competir en juegos infantiles. Dentro les esperan un tentador premio y desafíos letales. </p>
+                    </div>
+                    <div>
+                        <p>Serie vista por <span>N</span>etflix</p>
+                    </div>
+                </article>
+
+            </article>
+        </section>
+           
+        <section class="contenedor-secundario">   
+
+            <img src="./img/tarjeta.jpg" alt="bienvenida-juego-del-calamar">
+
+            <article class="contenedor-info">
+                    <h2 class="info-titulo">Squid game | El Juego del Calamar</h2>                   
+                    <article class="info-detalle">
+                        <p>Es la nueva propuesta coreana para la plataforma de streaming Netflix, y muchos no podemos dejar de hablar ni pensar en ella.</p>
+                        <p>Los protagonistas principales son: Lee Jung-jae,Park Hae-soo,Wi Ha-jun</p>
+                        <p>Creado por: Lee Jung-jae,Park Hae-soo,Wi Ha-jun</p>
+                        <p>La banda sonora fue compuesta por Jung Jae-il. Temas como Way Back then, pink Soldiers, etc.</p>
+                        <p>Género: Acción, Supervivencia, Misterio, Drama, Terror.</p>                        
+                    </article>
+            </article>
+        </section>
+
+        <section>
+            <h2 class="info-titulo">Elenco</h2>
+            <div class="contenedor-elenco">
+                <a href="./personaje.html">
+                    <img src="./img/personaje 1 Seong Gi Hun.jpg" title="Actor: Lee Jung-jae" alt="Seong Gi Hun">
+                    <img src="./img/personaje 2 Cho Sang-Woo.jpg" title="Actor: Park Hae-soo" alt="Cho Sang-Woo">
+                    <img src="./img/personaje-3-Kang-Sae-Byeok.jpg" title="Actriz: Jung Ho-yeon"  alt="Kang Sae-Byeok">
+                    <img src="./img/personaje 4 Oh Il-nam.jpg"  title="Actor: Oh Young-soo" alt="Oh Il-nam">
+                    <img src="./img/personaje 5 Hwang Jun-Ho.jpg"  title="Actor: Wi Ha-Joon" alt="Hwang Jun-Ho">
+                    <img src="./img/personaje 6 Front Man.jpg" title="Actor: Byung-hun" alt="Front Man">
+                </a>
+            </div>
+                </section>
+
+        <section class="estreno">
+                <h2 class="info-titulo">LUZ ROJA … ¡LUZ VERDE! | ES OFICIAL, se estrenará otra temporada <br> <a href="./temporada.html">Click Aqui</a> </h2>
+        </section>
+
+        <!--
+        <section>
+            <h2 class="info-titulo">Criticas, informes, notas, etc | El juego del Calamar</h2>
+            <p>Enlaces a las ultimas noticias</p>
+        </section>-->
+        
+    </main>
+
+    <!--PIE DE PAG.-->
+    <footer>
+        <a href="https://www.facebook.com">
+            <img src="img/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.twitter.com">
+            <img src="img/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.youtube.com">
+            <img src="img/youtube.png" alt="Youtube">
+        </a>
+        <a href="https://www.instagram.com">
+            <img src="img/instagram.png" alt="Instagram">
+        </a>
+    </footer>
+
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+
+</body>
+</html>
