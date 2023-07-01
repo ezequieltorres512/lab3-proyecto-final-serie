@@ -10,8 +10,6 @@ body{
     color: white;
 }
 
-/*ENCABEZADO*/
-
 .inicio-logo img{ max-width: 7rem; }
 
 header{
@@ -51,8 +49,6 @@ nav ul li a:hover{
 }
 
 .icon{ display: none; }
-
-/* SECCION PRINCIPAL */
 
 section {
     max-width: 1400px;
@@ -132,8 +128,6 @@ section {
     font-weight: bold;
 }
 
-/*SECCION SECUNDARIO*/
-
 .contenedor-secundario{
     display: flex;
     flex-direction: row;
@@ -150,10 +144,6 @@ section {
     width: 30%;
     padding: 0% 0.5rem;
  }
-
-
-/*TEMPORADA*/
-
 
 
 .titulo{
@@ -240,10 +230,6 @@ main.temporada .intro-principal h1, main.temporada .intro-principal p{
     justify-content: space-between;
 }
 
-/**/
-
-
-
 .contenedor-elenco a{
     margin-top: 4%;
     margin-left: auto;
@@ -267,9 +253,6 @@ main.temporada .intro-principal h1, main.temporada .intro-principal p{
     opacity: 1;
     filter: contrast(110%);
 }
-/**/
-
-/*CONTACTO*/
 
  .intro-principal{
     text-align: center;
@@ -290,8 +273,6 @@ form.contenedor-info textarea{
 
 .img-contacto{ display: inline-block; }
 
-/* PIE DE PAG */
-
 footer{
     background-color: #000000;
 	display: flex;
@@ -308,7 +289,6 @@ footer a img{
 	height: auto;
 	margin-right: .5%;
 }
-
 
 /*RESPONSIVE*/
 @media (max-width: 480px) { 
@@ -386,8 +366,6 @@ footer a img{
         padding-right: 1%;
     }
 
-    /*INDEX*/
-
     .principal{
         background-image: url(../img/soldado.jpg);
         height: 600px;
@@ -422,7 +400,6 @@ footer a img{
         height: 500px;
     }    
 
-    /*PERSONAJE*/
     .tarjeta-personaje{
         flex-direction: column;
         align-items: center;
@@ -439,7 +416,6 @@ footer a img{
         width: 100%;
     }
 
-    /*EPISODIO*/
     .contenedor-videos-temp2{
         justify-content: space-between;
         height: 650px;
@@ -454,10 +430,4 @@ footer a img{
         margin-left: auto;
         margin-right: auto;
     }
-
-
-
-
-
-
 }
