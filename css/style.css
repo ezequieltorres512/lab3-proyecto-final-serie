@@ -59,8 +59,7 @@ section {
 
 
 .principal{
-    background-image: url(/img/el-juego-del-calamar-juegos-1634140407.jpg);
-    background-image: url(/img/soldado1.jpg);
+    background-image: url(../img/soldado1.jpg);
 
     background-size: cover;
     background-repeat: no-repeat;
