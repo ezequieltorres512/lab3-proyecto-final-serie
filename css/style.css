@@ -90,7 +90,7 @@ section {
 
 
 .principal{
-    background-image: url(/img/soldado1.jpg);
+    background-image: url(./img/soldado1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
